@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Drawing Paper</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sticky-notes">
+        <div class="note1">
+            <img src="images/yellow_sticky2.png" style="max-width: 300px;">
+        </div>
+        <div class="note2">
+            <img src="images/green_sticky.png" style="max-width: 300px;">
+
+        </div>
+    </section>
+
+    <section class="notebook">
+        <canvas id="paper"></canvas>
+
+    </section>
+
+    <section class="tools">
+        <div class="eraser">
+            <img src="images/eraser.png" style="max-height: 190px;" id="clear" onclick="clearCanvas()">
+            <!-- <button id="clear">Eraser</button> -->
+        </div>
+        <div class="pencil">
+            <img src="images/pencil.png">
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

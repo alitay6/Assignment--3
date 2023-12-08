@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/wood.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.sticky-notes {
+    grid-column: 1;
+    max-height: 900px;
+}
+
+.note1,
+.note2 {
+    height: 315x;
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.note2 {
+    padding-left: 15%;
+}
+
+.paper {
+    display: grid;
+    justify-content: center;
+    grid-column: 2;
+}
+
+#paper {
+    background: url(images/sketchbook2.png);
+    background-size: cover;
+}
+
+#paper:hover {
+    cursor: url(images/pencilCursor.png), auto;
+}
+
+.tools {
+    padding-top: 230px;
+    display: grid;
+}
+
+.pencil {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.eraser {
+    padding-top: 50px;
+    grid-column: 4;
+}
+
+#clear:hover {
+    cursor: pointer;
+}
