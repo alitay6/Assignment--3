@@ -4,10 +4,10 @@ body {
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    margin-top: 50px;
+    margin-top: 3%;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 3%;
     width: auto;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .note1,
 .note2 {
-    height: 315x;
+    height: 315px;
     padding-top: 15%;
     padding-right: 10%;
     padding-left: 10%;

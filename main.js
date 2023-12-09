@@ -3,7 +3,7 @@ let canvas = document.getElementById('paper');
 let ctx = canvas.getContext('2d');
 
 canvas.width = 860;
-canvas.height = 855;
+canvas.height = 740;
 
 let isPainting = false;
 let startX = 0;
